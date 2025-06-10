@@ -46,5 +46,75 @@
         </mj-column>
       </mj-group>
     </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-text>S3300 End-of-Life / End-of-Sale Bulletin Contact NETGEAR for your alternative</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image padding="0" width="700px" src="./images/GammeS3300.jpg" alt=""/>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image padding="0" width="700px" src="./images/CTA.jpg" alt=""/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-table>
+          <tr>
+            <td>Information product</td>
+            <td>End of life date</td>
+            <td>End of sale date</td>
+          </tr>
+          <tr>
+            <td>S3300-52X (GS752TX)</td>
+            <td>May 18th 2021</td>
+            <td>August 31st 2021</td>
+          </tr>
+          <tr>
+            <td>S3300-52X-PoE+ (GS752TXP)</td>
+            <td>May 18th 2021</td>
+            <td>August 31st 2021</td>
+          </tr>
+          <tr>
+            <td>S3300-28X (GS728TX)</td>
+            <td>November 8th 2021</td>
+            <td>December 31st 2021</td>
+          </tr>
+          <tr>
+            <td>S3300-28X-PoE+ (GS728TXP)</td>
+            <td>November 8th 2021</td>
+            <td>December 31st 2021</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section> 
+      <mj-column>
+        <mj-text>As alternatives we have our Fully Managed Switches (M4500, M4300 & m4250 series).</mj-text>
+        <mj-text>Need help in finding the correct alternative?</mj-text>
+        <mj-button>contact per mail</mj-button>
+        <mj-button>contact per phone</mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image padding="0" width="350px" src="./images/imageBranchement.jpg" alt=""/>
+      </mj-column>
+    </mj-section>
+    <mj-section> 
+      <mj-column>
+        <mj-text>Contact us</mj-text>
+        <mj-text>+32 (0)2 709 23 00</mj-text>
+        <mj-text>be.rapidresponse@netgear.com ou lu.rapidresponse@netgear.com</mj-text>
+        <mj-text>Netgear Belgium - Regus Brussels Airport - Pegasuslaan 5 - Diegem 1831 - Belgium </mj-text>
+        <mj-social>
+          <mj-social-element>name="facebook" href="https://www.facebook.com/NETGEARBE" /></mj-social-element>
+          <mj-social-element>name="twitter" href="https://twitter.com/NETGEARBE" /></mj-social-element>
+          <mj-social-element>name="linkedin" href="https://www.linkedin.com/company/netgearbe/" /></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
