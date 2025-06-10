@@ -18,7 +18,7 @@
       <mj-class name="T32-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="32px" line-height="50px" font-weight="300"/>
       <mj-class name="T30-500" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="30px" line-height="40px" font-weight="500"/>
       <mj-class name="T30-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="30px" line-height="40px" font-weight="300"/>
-      <mj-class name="T20-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="20px" line-height="35px" font-weight="500"/>
+      <mj-class name="T24-300" font-family="&quot;Source Sans 3&quot;,Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="300"/>
       <mj-class name="T20-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="20px" line-height="35px" font-weight="300"/>
       <mj-class name="T18-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="18px" line-height="25px" font-weight="500"/>
       <mj-class name="T17-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="17px" line-height="24px" font-weight="500"/>
@@ -61,41 +61,41 @@
         <mj-image padding="0" width="700px" src="./images/CTA.jpg" alt=""/>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section mj-class="bgW">
       <mj-column>
-        <mj-table>
+        <mj-table mj-class="T15-300">
           <tr>
-            <td>Information product</td>
-            <td>End of life date</td>
-            <td>End of sale date</td>
+            <th style="padding:5px;text-align:center;border:1px dashed #000000;text-transform:uppercase;"><strong>Information product</strong></th>
+            <th style="padding:5px;text-align:center;border:1px dashed #000000;text-transform:uppercase;"><strong>End of life date</strong></th>
+            <th style="padding:5px;text-align:center;border:1px dashed #000000;text-transform:uppercase;"><strong>End of sale date</strong></th>
+          </tr>
+          <tr style="background-color:#f1f1f1;">
+            <td style="padding:5px;border:1px dashed #000000;"><strong>S3300-52X (GS752TX)</strong></td>
+            <td style="padding:5px;text-align:center;border:1px dashed #000000;">May 18th 2021</td>
+            <td style="padding:5px;text-align:center;border:1px dashed #000000;">August 31st 2021</td>
           </tr>
           <tr>
-            <td>S3300-52X (GS752TX)</td>
-            <td>May 18th 2021</td>
-            <td>August 31st 2021</td>
+            <td style="padding:5px;border:1px dashed #000000;"><strong>S3300-52X-PoE+ (GS752TXP)</strong></td>
+            <td style="padding:5px;border:1px dashed #000000;text-align:center;">May 18th 2021</td>
+            <td style="padding:5px;border:1px dashed #000000;text-align:center;">August 31st 2021</td>
+          </tr>
+          <tr style="background-color:#f1f1f1;">
+            <td style="padding:5px;border:1px dashed #000000;"><strong>S3300-28X (GS728TX)</strong></td>
+            <td style="padding:5px;text-align:center;border:1px dashed #000000;">November 8th 2021</td>
+            <td style="padding:5px;text-align:center;border:1px dashed #000000;">December 31st 2021</td>
           </tr>
           <tr>
-            <td>S3300-52X-PoE+ (GS752TXP)</td>
-            <td>May 18th 2021</td>
-            <td>August 31st 2021</td>
-          </tr>
-          <tr>
-            <td>S3300-28X (GS728TX)</td>
-            <td>November 8th 2021</td>
-            <td>December 31st 2021</td>
-          </tr>
-          <tr>
-            <td>S3300-28X-PoE+ (GS728TXP)</td>
-            <td>November 8th 2021</td>
-            <td>December 31st 2021</td>
+            <td style="padding:5px;border:1px dashed #000000;"><strong>S3300-28X-PoE+ (GS728TXP)</strong></td>
+            <td style="padding:5px;text-align:center;border:1px dashed #000000;">November 8th 2021</td>
+            <td style="padding:5px;text-align:center;border:1px dashed #000000;">December 31st 2021</td>
           </tr>
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section> 
+    <mj-section background-color="#f6f6f6" padding="0"> 
       <mj-column>
-        <mj-text>As alternatives we have our Fully Managed Switches (M4500, M4300 & m4250 series).</mj-text>
-        <mj-text>Need help in finding the correct alternative?</mj-text>
+        <mj-text align="left" mj-class="T24-300 cT1">As alternatives we have our <span style="font-weight:500;">Fully Managed Switches (M4500, M4300 & m4250 series)</span>.</mj-text>
+        <mj-text align="left" mj-class="T24-300 cT1">Need help in finding the correct alternative?</mj-text>
         <mj-button>contact per mail</mj-button>
         <mj-button>contact per phone</mj-button>
       </mj-column>
@@ -103,12 +103,12 @@
         <mj-image padding="0" width="350px" src="./images/imageBranchement.jpg" alt=""/>
       </mj-column>
     </mj-section>
-    <mj-section> 
+    <mj-section mj-class="bgW">
       <mj-column>
-        <mj-text>Contact us</mj-text>
-        <mj-text>+32 (0)2 709 23 00</mj-text>
-        <mj-text>be.rapidresponse@netgear.com ou lu.rapidresponse@netgear.com</mj-text>
-        <mj-text>Netgear Belgium - Regus Brussels Airport - Pegasuslaan 5 - Diegem 1831 - Belgium </mj-text>
+        <mj-text align="center">Contact us</mj-text>
+        <mj-text align="center">+32 (0)2 709 23 00</mj-text>
+        <mj-text align="center">be.rapidresponse@netgear.com ou lu.rapidresponse@netgear.com</mj-text>
+        <mj-text align="center">Netgear Belgium - Regus Brussels Airport - Pegasuslaan 5 - Diegem 1831 - Belgium</mj-text>
         <mj-social>
           <mj-social-element name="facebook" href="https://www.facebook.com/NETGEARBE"></mj-social-element>
           <mj-social-element name="twitter" href="https://twitter.com/NETGEARBE"></mj-social-element>
