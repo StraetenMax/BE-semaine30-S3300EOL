@@ -93,11 +93,12 @@
       </mj-column>
     </mj-section>
     <mj-section background-color="#f6f6f6" padding="0"> 
-      <mj-column>
-        <mj-text align="left" mj-class="T24-300 cT1">As alternatives we have our <span style="font-weight:500;">Fully Managed Switches (M4500, M4300 & m4250 series)</span>.</mj-text>
-        <mj-text align="left" mj-class="T24-300 cT1">Need help in finding the correct alternative?</mj-text>
-        <mj-button>contact per mail</mj-button>
-        <mj-button>contact per phone</mj-button>
+      <mj-column padding="20px 30px 10px 20px">
+        <mj-text padding="0" align="left" mj-class="T24-300 cT1">As alternatives we have our <span style="font-weight:500;">Fully Managed Switches (M4500, M4300 & m4250 series)</span>.</mj-text>
+        <mj-text padding="0" align="left" mj-class="T24-300 cT1">Need help in finding the correct alternative&nbsp;?</mj-text>
+        <mj-spacer height="15px"/>
+        <mj-button padding-top="10px" inner-padding="12px 20px" color="#ffffff" text-transform="uppercase" text-decoration="none" background-color="#73389B" href="#"><strong>contact per mail</strong></mj-button>
+        <mj-button padding-top="10px" inner-padding="12px 20px" color="#ffffff" text-transform="uppercase" text-decoration="none" background-color="#73389B" href="#"><strong>contact per phone</strong></mj-button>
       </mj-column>
       <mj-column>
         <mj-image padding="0" width="350px" src="./images/imageBranchement.jpg" alt=""/>
